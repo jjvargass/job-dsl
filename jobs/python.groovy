@@ -4,8 +4,8 @@ repo_name = "repo"
 
 
 pipelineJob(project_name){
-  definition{
-      triggers{
+  definition {
+      triggers {
           scm('H/1 * * * *')
       }
 
