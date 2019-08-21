@@ -3,6 +3,12 @@ repo = "git@github.com:jjvargass/test-jenkins-01.git"
 repo_name = "repo"
 
 
+folder('project-a') {
+    displayName('Project A')
+    description('Folder for project A')
+}
+
+
 pipelineJob(project_name){
   definition {
       triggers {
