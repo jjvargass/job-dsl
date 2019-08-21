@@ -17,7 +17,7 @@ pipelineJob(project_name){
                       url(repo)
                   }
                 }
-              scriptPath{"Jenkinsfile"}
+              scriptPath("Jenkinsfile")
           }
       }
 
