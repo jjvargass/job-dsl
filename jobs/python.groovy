@@ -13,7 +13,7 @@ pipelineJob(project_name){
           scm {
               git {
                   remote {
-                      name{repo_name}
+                      name(repo_name)
                       url(repo)
                   }
                 }
